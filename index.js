@@ -128,7 +128,31 @@ function criarInsertEnderecoSPCidade(valorInicial, valorFinal){
     }
 }
 
-criarInsertEnderecoSPCidade(81, 100);
+let nomes = ['Maria', 'Ana', 'Angélica', 'Ademir', 'Gustavo', 'Henrique', 'Juliana', 'Juliano', 'Herick', 'Afonso', 'Sergia', 'Robson', 'Fernanda', 'Fernando', 'Gerson', 'Anderson', 'Andressa', 'Cíntia', 'Thabata', 'Thales', 'Antônio', 'Antônia', 'Gustavo', 'Amanda', 'Clara', 'Olívia', 'André', 'Andréa', 'Clarissa', 'Carla', 'Katia', 'Pedro', 'Francisco', 'José', 'Carlos', 'Fabio', 'Fabiana'];
+let sobrenomes = ['Silva', 'Matos', 'Neves', 'das Neves', 'Figueiredo', 'Costa', 'Cardoso', 'Macedo', 'Tavares', 'Xavier', 'Coelho', 'de Souza', 'Bastos', 'Seabra', 'Serafim', 'Gomes', 'Ferreira', 'Lemos', 'Alves', 'Lopes', 'Dias', 'Fernandes', 'Morais'];
+
+function gerarEmail(nome){
+    let provedor = ['@gmail.com', '@hotmail.com', '@terra.com.br', '@yahoo.com', '@gmail.com', '@gmail.com', '@gmail.com',]
+    return nome.slice(0, 3) + nome.slice(-3) + Math.floor(Math.random() * 100) + provedor[Math.floor(Math.random() * provedor.length)];
+}
+
+function gerarNome(){
+    return nomes[Math.floor(Math.random() * nomes.length)] + ' ' + sobrenomes[Math.floor(Math.random() * sobrenomes.length)] + ' ' + sobrenomes[Math.floor(Math.random() * sobrenomes.length)]
+}
+
+function gerarInsertClientePF(valorInicial, valorFinal){
+    for (let i = valorInicial; i <= valorFinal; i++){
+        let nome = gerarNome();
+        let email = gerarEmail(nome);
+        console.log(`insert into tb_cliente (codigo_cliente, nome_cliente, email) values
+        (${i}, '${nome.toUpperCase()}', ${email.toUpperCase()});`)
+    }
+
+}
+
+gerarInsertClientePF(1, 50);
+
+//criarInsertEnderecoSPCidade(81, 100);
 
 //criarInsertEnderecoSP(11, 50);
 
