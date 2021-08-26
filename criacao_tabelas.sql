@@ -188,7 +188,7 @@ foreign key (codigo_pais_emissor) references tb_pais (codigo_pais)
 create table tb_cliente_pessoa_juridica
 (
 codigo_cliente int not null,
-cnpj varchar(15) not null,
+cnpj varchar(20) not null,
 inscricao_estadual varchar(15) not null,
 primary key (codigo_cliente),
 foreign key (codigo_cliente) references tb_cliente (codigo_cliente),
@@ -200,7 +200,7 @@ unique key (cnpj)
 create table tb_filial
 (
 codigo_filial int not null,
-cnpj varchar(15) not null,
+cnpj varchar(20) not null,
 nome_filial varchar(50) not null,
 codigo_endereco int not null,
 flag_eh_24_horas bit not null,

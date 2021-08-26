@@ -313,9 +313,6 @@ insert into tb_telefone (codigo_telefone, codigo_ddi, codigo_ddd, telefone, flag
 -- tb_endereco
 insert into tb_endereco
         (codigo_endereco, logradouro, numero, complemento, cep, codigo_cidade, codigo_uf) values
-        (0, 'AV. BAHIA', 1786, null, '55054-36', 2, 25);
-insert into tb_endereco
-        (codigo_endereco, logradouro, numero, complemento, cep, codigo_cidade, codigo_uf) values
         (1, 'RUA MERCEDES SOSA', 2712, null, '17930-590', 9, 25);
 insert into tb_endereco
         (codigo_endereco, logradouro, numero, complemento, cep, codigo_cidade, codigo_uf) values
@@ -554,3 +551,75 @@ insert into tb_endereco
 insert into tb_endereco
         (codigo_endereco, logradouro, numero, complemento, cep, codigo_cidade, codigo_uf) values
         (80, 'AV. REFAZENDA', 3629, 'CASA 251', '87563-478', 1, 25);
+insert into tb_endereco
+        (codigo_endereco, logradouro, numero, complemento, cep, codigo_cidade, codigo_uf) values
+        (81, 'PRAÇA DO MACHADO', 1715, null, '50462-398', 1, 25);
+insert into tb_endereco
+        (codigo_endereco, logradouro, numero, complemento, cep, codigo_cidade, codigo_uf) values
+        (82, 'RUA WALLY SALOMÃO', 149, null, '78649-925', 1, 25);
+insert into tb_endereco
+        (codigo_endereco, logradouro, numero, complemento, cep, codigo_cidade, codigo_uf) values
+        (83, 'RUA REBOUÇAS', 51, null, '25973-334', 1, 25);
+insert into tb_endereco
+        (codigo_endereco, logradouro, numero, complemento, cep, codigo_cidade, codigo_uf) values
+        (84, 'LARGO DOS BURITIS', 906, 'CASA 101', '99488-810', 1, 25);
+insert into tb_endereco
+        (codigo_endereco, logradouro, numero, complemento, cep, codigo_cidade, codigo_uf) values
+        (85, 'AV. ANTÔNIO CARLOS', 4327, 'CASA 181', '92395-637', 1, 25);
+insert into tb_endereco
+        (codigo_endereco, logradouro, numero, complemento, cep, codigo_cidade, codigo_uf) values
+        (86, 'AV. VITAL BRAZIL', 193, null, '14911-521', 1, 25);
+insert into tb_endereco
+        (codigo_endereco, logradouro, numero, complemento, cep, codigo_cidade, codigo_uf) values
+        (87, 'AV. PEDRO LESSA', 1854, 'AP. 471', '77455-922', 1, 25);
+insert into tb_endereco
+        (codigo_endereco, logradouro, numero, complemento, cep, codigo_cidade, codigo_uf) values
+        (88, 'LARGO CAPITÃO MACEDO', 4224, null, '15919-298', 1, 25);
+insert into tb_endereco
+        (codigo_endereco, logradouro, numero, complemento, cep, codigo_cidade, codigo_uf) values
+        (89, 'PRAÇA PITANGUEIRAS', 762, 'BLOCO 51', '52997-692', 1, 25);
+insert into tb_endereco
+        (codigo_endereco, logradouro, numero, complemento, cep, codigo_cidade, codigo_uf) values
+        (90, 'AV. ANTÔNIO CARLOS', 4674, 'APARTAMENTO 361', '52357-315', 1, 25);
+insert into tb_endereco
+        (codigo_endereco, logradouro, numero, complemento, cep, codigo_cidade, codigo_uf) values
+        (91, 'RUA WALLY SALOMÃO', 53, null, '25834-736', 1, 25);
+insert into tb_endereco
+        (codigo_endereco, logradouro, numero, complemento, cep, codigo_cidade, codigo_uf) values
+        (92, 'AV. ANCHIETA', 1830, 'BLOCO 401', '89907-528', 1, 25);
+insert into tb_endereco
+        (codigo_endereco, logradouro, numero, complemento, cep, codigo_cidade, codigo_uf) values
+        (93, 'AV. DOS PÁSSAROS', 4787, null, '96307-811', 1, 25);
+insert into tb_endereco
+        (codigo_endereco, logradouro, numero, complemento, cep, codigo_cidade, codigo_uf) values
+        (94, 'VIA DAS ROSAS', 3268, null, '49928-716', 1, 25);
+insert into tb_endereco
+        (codigo_endereco, logradouro, numero, complemento, cep, codigo_cidade, codigo_uf) values
+        (95, 'RUA MACHADO DE ASSIS', 738, 'CASA 51', '65334-430', 1, 25);
+insert into tb_endereco
+        (codigo_endereco, logradouro, numero, complemento, cep, codigo_cidade, codigo_uf) values
+        (96, 'VIA 3 DE MARÇO', 2462, null, '93873-635', 1, 25);
+insert into tb_endereco
+        (codigo_endereco, logradouro, numero, complemento, cep, codigo_cidade, codigo_uf) values
+        (97, 'RUA ANTÔNIO CARLOS', 3997, 'APTO. 141', '13648-556', 1, 25);
+insert into tb_endereco
+        (codigo_endereco, logradouro, numero, complemento, cep, codigo_cidade, codigo_uf) values
+        (98, 'RUA PIAUÍ', 4464, 'CASA 51', '88903-449', 1, 25);
+insert into tb_endereco
+        (codigo_endereco, logradouro, numero, complemento, cep, codigo_cidade, codigo_uf) values
+        (99, 'PRAÇA ANTÔNIO CARLOS', 1560, 'APTO. 241', '22031-63', 1, 25);
+insert into tb_endereco
+        (codigo_endereco, logradouro, numero, complemento, cep, codigo_cidade, codigo_uf) values
+        (100, 'RUA DAS ROSAS', 2843, 'BLOCO 311', '47102-111', 1, 25);
+
+
+-- tb_filial
+insert into tb_filial
+	(codigo_filial, cnpj, nome_filial, codigo_endereco, flag_eh_24_horas, hora_abertura, hora_fechamento) values
+	(1, '12.345.678/0001-12', 'SANTOS', 1, 0, '09:00', '20:00');
+insert into tb_filial
+	(codigo_filial, cnpj, nome_filial, codigo_endereco, flag_eh_24_horas, hora_abertura, hora_fechamento) values
+	(2, '10.245.674/0001-12', 'SÃO PAULO - PEDRO LESSA', 60 , 0, '09:00', '20:00');
+insert into tb_filial
+	(codigo_filial, cnpj, nome_filial, codigo_endereco, flag_eh_24_horas, hora_abertura, hora_fechamento) values
+	(3, '92.345.758/0001-12', 'SÃO PAULO - TIRADENTES', 59, 1, NULL, NULL);
