@@ -1,0 +1,29 @@
+[
+    {
+        "codigo": 1,
+        "descricao": "Sabão Líquido OMO Lavagem Perfeita 3 L",
+        "categoria": 1,
+        "marca": "OMO",
+        "composicao": "Linear Alquil, Benzeno Sulfonato De Sódio, Alquil Éter Sulfato de Sódio, Ajustador de Ph, Espessantes, Coadjuvantes, Tamponante, Corante, Enzimas, Branqueador Óptico, Fragrância, Agente Anti Redepositante, Conservantes e Água.",
+        "valor_base": 37.99,
+        "desconto": null
+    },
+    {
+        "codigo": 2,
+        "descricao": "Álcool Líquido 70% START 1 Litro",
+        "categoria": 1,
+        "marca": "Asseptigel",
+        "composicao": null,
+        "valor_base": 11.29,
+        "desconto": 1
+    },
+    {
+        "codigo": 3,
+        "descricao": "Água Sanitária SUPER CANDIDA 2 Litros",
+        "categoria": 1,
+        "marca": "Super Cândida",
+        "composicao": null,
+        "valor_base": 6.29,
+        "desconto": 0.40
+    }
+]
