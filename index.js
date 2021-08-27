@@ -170,8 +170,60 @@ function gerarInsertClientePJ(valorInicial, valorFinal){
     }
 }
 
+function clientePF(inicio, fim){
+    for(let i = inicio; i<= fim; i++){
+        let generos = [1, 2, 3, 4, null, null, null, null, null, null, null, 1, 1, 1, 2, 2, 2, null, null, null]
+        let genero = generos[Math.floor(Math.random() * (generos.length - 1) + 1)]
+        let dia = Math.floor(Math.random() * (28 - 1) + 1);
+        let mes = Math.floor(Math.random() * (12 - 1) + 1);
+        let ano = Math.floor(Math.random() * (2010 - 1955) + 1955);
 
+        console.log(`insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (${i}, '${ano}-${mes}-${dia}', ${genero});`)
+    }
 
+}
+
+function cpfPF(inicio, fim){
+    for(let i = inicio; i<= fim; i++){
+        let cpf = `${Math.floor(Math.random() * (999 - 100) + 100)}.${Math.floor(Math.random() * (999 - 100) + 100)}.${Math.floor(Math.random() * (999 - 100) + 100)}-${Math.floor(Math.random() * (99 - 10) + 10)}`
+
+        console.log(`insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (${i}, '${cpf}');`)
+    }
+}
+
+function gringoPF(inicio, fim){
+    for(let i = inicio; i<= fim; i++){
+        let doc = `${Math.floor(Math.random() * (999 - 100) + 100)}-${Math.floor(Math.random() * (999 - 100) + 100)}`
+        let tipoDoc = Math.floor(Math.random() * (6 - 1) + 1)
+        let pais = Math.floor(Math.random() * (15 - 1) + 1)
+
+        console.log(`insert into tb_documento_pessoa_fisica_estrangeira (codigo_cliente, codigo_tipo_documento, numero_documento, codigo_pais_emissor) values (${i}, ${tipoDoc}, ${doc}, ${pais});`)
+    }
+}
+
+function clientePedido(){
+    for(let i = 1; i <= 30; i++) {
+        let cliente = Math.floor(Math.random() * (60 - 1) + 1)
+        console.log(`insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (${cliente}, ${i});`)
+    }
+}
+
+function clienteTelefone(){
+    for(let i = 1; i <= 70; i++) {
+        let cliente = Math.floor(Math.random() * (60 - 1) + 1)
+        let descricao = ['CASA', 'CELULAR', 'TRABALHO', 'CEL.', 'CASA', null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+        let desc = descricao[Math.floor(Math.random() * (descricao.length - 1))]
+        console.log(`insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (${cliente}, ${i}, ${desc !== null ? "'"+ desc + "'" : null});`)
+    }
+}
+
+clienteTelefone()
+
+//clientePedido();
+//gringoPF(41, 50)
+//cpfPF(1, 40)
+
+//clientePF(6, 50)
 
 //gerarInsertClientePJ(51, 60);
 

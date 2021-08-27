@@ -85,4 +85,30 @@ where tp.codigo_pedido = ${i};
     }
 }
 
-gerarPedido(10,10)
+//gerarPedido(31,35)
+
+
+
+function gerarNf(codigoInicial, codigoFinal){
+    for(let i = codigoInicial; i<= codigoFinal; i++){
+        let nf = Math.floor(Math.random() * (999999999 - 100000000)) + 100000000 ;
+
+        let chave = `${Math.floor(Math.random() * (9999 - 1000)) + 1000} ${Math.floor(Math.random() * (9999 - 1000)) + 1000} ${Math.floor(Math.random() * (9999 - 1000)) + 1000} ${Math.floor(Math.random() * (9999 - 1000)) + 1000} ${Math.floor(Math.random() * (9999 - 1000)) + 1000} ${Math.floor(Math.random() * (9999 - 1000)) + 1000} ${Math.floor(Math.random() * (9999 - 1000)) + 1000} ${Math.floor(Math.random() * (9999 - 1000)) + 1000} ${Math.floor(Math.random() * (9999 - 1000)) + 1000} ${Math.floor(Math.random() * (9999 - 1000)) + 1000} `;
+
+        let serie = Math.floor(Math.random() * (999 - 100)) + 100;
+
+        
+
+        let filiais = [null, null, null];
+
+        let filial = filiais[Math.floor(Math.random() * (filiais.length - 1) + 1)]
+
+        let pedidos = [ 3];
+
+        let pedido = pedidos[Math.floor(Math.random() * (pedidos.length - 1) + 1)];
+
+        console.log(`insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values (${nf}, ${filial == null ? pedido : null}, '${chave}', ${serie}, ${gerarDataMes(08)}, ${filial}, 0);`);
+    }
+}
+
+gerarNf(1, 5)

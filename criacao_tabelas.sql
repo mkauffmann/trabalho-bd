@@ -323,7 +323,7 @@ create table tb_nota_fiscal
 (
 nf int not null,
 codigo_pedido int null,
-chave_de_acesso varchar(44) not null,
+chave_de_acesso varchar(60) not null,
 serie int not null,
 data_emissao date not null,
 codigo_filial_emissora int null,

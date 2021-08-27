@@ -839,6 +839,114 @@ insert into tb_cliente_pessoa_juridica (codigo_cliente, cnpj, inscricao_estadual
 insert into tb_cliente_pessoa_juridica (codigo_cliente, cnpj, inscricao_estadual) values
 (60, '72.367.637/0007-52', '098373829');
 
+-- tb_cliente pf
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (1, '2007-6-14', null);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (2, '1955-7-4', 4);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (3, '1974-5-26', null);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (4, '1958-7-6', null);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (5, '1974-1-3', 2);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (6, '1959-8-26', 1);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (7, '1965-4-8', 1);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (8, '1995-7-12', 2);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (9, '1974-11-26', null);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (10, '1977-9-27', null);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (11, '1992-1-7', null);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (12, '1961-6-21', 3);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (13, '1957-11-3', null);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (14, '1986-3-8', 4);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (15, '1994-2-10', null);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (16, '1985-6-24', 1);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (17, '1960-4-6', null);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (18, '1997-4-20', 3);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (19, '2003-3-9', 3);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (20, '1992-10-15', null);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (21, '1974-8-12', null);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (22, '1975-11-17', null);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (23, '1992-1-23', null);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (24, '1984-3-13', 1);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (25, '1978-4-9', null);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (26, '1960-10-7', 1);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (27, '1962-11-11', 2);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (28, '1970-6-18', null);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (29, '1955-1-1', 2);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (30, '1960-2-23', 2);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (31, '1966-11-5', 1);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (32, '1980-6-4', 2);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (33, '1973-8-20', null);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (34, '2002-5-11', 4);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (35, '1995-1-13', null);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (36, '1973-1-18', 2);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (37, '1995-3-6', 2);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (38, '1974-1-22', 2);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (39, '1964-6-23', null);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (40, '1962-9-27', null);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (41, '1999-6-13', 3);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (42, '1990-9-12', null);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (43, '1967-11-6', null);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (44, '1973-3-22', 2);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (45, '1958-8-21', 1);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (46, '2000-6-10', 3);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (47, '2002-1-2', 2);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (48, '1955-3-2', null);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (49, '2004-10-3', 2);
+insert into tb_cliente_pessoa_fisica (codigo_cliente, data_nascimento, codigo_genero) values (50, '2002-4-4', null);
+
+-- tb_documento pessoa fisica
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (1, '845.400.694-16');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (2, '334.268.440-75');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (3, '985.228.124-55');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (4, '673.109.886-38');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (5, '168.679.942-28');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (6, '742.715.360-48');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (7, '447.462.288-97');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (8, '308.225.293-71');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (9, '873.652.612-11');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (10, '425.261.486-63');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (11, '201.383.101-61');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (12, '924.996.350-12');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (13, '208.586.255-46');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (14, '369.954.624-47');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (15, '988.323.291-69');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (16, '545.981.103-30');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (17, '837.509.212-85');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (18, '796.634.346-51');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (19, '856.789.625-64');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (20, '884.569.261-35');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (21, '826.337.927-55');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (22, '939.619.189-38');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (23, '364.960.668-15');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (24, '154.472.467-11');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (25, '696.886.354-95');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (26, '707.113.209-82');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (27, '472.706.382-46');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (28, '537.161.196-53');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (29, '390.523.136-11');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (30, '213.621.565-64');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (31, '519.104.784-45');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (32, '703.581.719-36');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (33, '586.996.393-42');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (34, '367.513.305-71');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (35, '272.771.579-55');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (36, '221.247.104-13');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (37, '282.924.476-50');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (38, '100.798.776-27');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (39, '476.576.810-33');
+insert into tb_documento_pessoa_fisica_brasileira (codigo_cliente, cpf) values (40, '931.159.647-75');
+
+
+-- tb gringo
+insert into tb_documento_pessoa_fisica_estrangeira (codigo_cliente, codigo_tipo_documento, numero_documento, codigo_pais_emissor) values (41, 2, 103-164, 2);
+insert into tb_documento_pessoa_fisica_estrangeira (codigo_cliente, codigo_tipo_documento, numero_documento, codigo_pais_emissor) values (42, 2, 527-136, 5);
+insert into tb_documento_pessoa_fisica_estrangeira (codigo_cliente, codigo_tipo_documento, numero_documento, codigo_pais_emissor) values (43, 2, 372-578, 10);
+insert into tb_documento_pessoa_fisica_estrangeira (codigo_cliente, codigo_tipo_documento, numero_documento, codigo_pais_emissor) values (44, 5, 315-196, 1);
+insert into tb_documento_pessoa_fisica_estrangeira (codigo_cliente, codigo_tipo_documento, numero_documento, codigo_pais_emissor) values (45, 4, 266-391, 9);
+insert into tb_documento_pessoa_fisica_estrangeira (codigo_cliente, codigo_tipo_documento, numero_documento, codigo_pais_emissor) values (46, 4, 801-794, 9);
+insert into tb_documento_pessoa_fisica_estrangeira (codigo_cliente, codigo_tipo_documento, numero_documento, codigo_pais_emissor) values (47, 4, 437-896, 9);
+insert into tb_documento_pessoa_fisica_estrangeira (codigo_cliente, codigo_tipo_documento, numero_documento, codigo_pais_emissor) values (48, 4, 725-645, 2);
+insert into tb_documento_pessoa_fisica_estrangeira (codigo_cliente, codigo_tipo_documento, numero_documento, codigo_pais_emissor) values (49, 1, 770-352, 12);
+insert into tb_documento_pessoa_fisica_estrangeira (codigo_cliente, codigo_tipo_documento, numero_documento, codigo_pais_emissor) values (50, 1, 236-531, 2);
+
+
 -- tb valor_venda
 insert into tb_preco_venda (codigo_produto, codigo_filial, valor_preco) values (1, 1, 36.85);
 insert into tb_preco_venda (codigo_produto, codigo_filial, valor_preco) values (1, 2, 37.61);
@@ -1235,3 +1343,654 @@ insert into tb_pedido_itens (codigo_pedido, codigo_item) values (10, 12);
 update tb_pedido p
         set valor_total = 11.64
         where p.codigo_pedido  = 10;
+
+insert into tb_pedido (codigo_pedido, codigo_status_do_pedido, data_compra, data_entrega, valor_total) values (11, 3, '2021-08-27', '2021-08-29', 0);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (11, 56);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (11, 52);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (11, 25);
+update tb_pedido p
+        set valor_total = 82.72
+        where p.codigo_pedido  = 11;
+
+insert into tb_pedido (codigo_pedido, codigo_status_do_pedido, data_compra, data_entrega, valor_total) values (12, 3, '2021-08-14', '2021-08-16', 0);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (12, 58);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (12, 13);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (12, 22);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (12, 16);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (12, 29);
+update tb_pedido p
+        set valor_total = 42.82
+        where p.codigo_pedido  = 12;
+
+
+insert into tb_pedido (codigo_pedido, codigo_status_do_pedido, data_compra, data_entrega, valor_total) values (13, 4, '2021-08-20', '2021-08-22', 0);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (13, 42);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (13, 36);
+update tb_pedido p
+        set valor_total = 5.88
+        where p.codigo_pedido  = 13;
+
+insert into tb_pedido (codigo_pedido, codigo_status_do_pedido, data_compra, data_entrega, valor_total) values (14, 4, '2021-08-26', '2021-08-28', 0);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (14, 15);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (14, 45);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (14, 58);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (14, 54);
+update tb_pedido p
+        set valor_total = 356.45
+        where p.codigo_pedido  = 14;
+
+
+insert into tb_pedido (codigo_pedido, codigo_status_do_pedido, data_compra, data_entrega, valor_total) values (15, 1, '2021-08-18', '2021-08-20', 0);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (15, 7);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (15, 9);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (15, 28);
+update tb_pedido p
+        set valor_total = 23.38
+        where p.codigo_pedido  = 15;
+
+
+insert into tb_pedido (codigo_pedido, codigo_status_do_pedido, data_compra, data_entrega, valor_total) values (16, 4, '2021-08-25', '2021-08-27', 0);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (16, 12);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (16, 50);
+update tb_pedido p
+        set valor_total = 74.72
+        where p.codigo_pedido  = 16;
+
+insert into tb_pedido (codigo_pedido, codigo_status_do_pedido, data_compra, data_entrega, valor_total) values (17, 3, '2021-08-8', '2021-08-10', 0);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (17, 33);
+update tb_pedido p
+        set valor_total = 61.49
+        where p.codigo_pedido  = 17;
+
+
+insert into tb_pedido (codigo_pedido, codigo_status_do_pedido, data_compra, data_entrega, valor_total) values (18, 2, '2021-08-18', '2021-08-20', 0);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (18, 18);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (18, 13);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (18, 59);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (18, 38);
+update tb_pedido p
+        set valor_total = 228.94
+        where p.codigo_pedido  = 18;
+
+insert into tb_pedido (codigo_pedido, codigo_status_do_pedido, data_compra, data_entrega, valor_total) values (19, 3, '2021-08-23', '2021-08-25', 0);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (19, 51);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (19, 43);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (19, 52);
+update tb_pedido p
+        set valor_total = 114.12
+        where p.codigo_pedido  = 19;
+
+insert into tb_pedido (codigo_pedido, codigo_status_do_pedido, data_compra, data_entrega, valor_total) values (20, 2, '2021-08-20', '2021-08-22', 0);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (20, 44);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (20, 6);
+update tb_pedido p
+        set valor_total = 22.69
+        where p.codigo_pedido  = 20;
+
+insert into tb_pedido (codigo_pedido, codigo_status_do_pedido, data_compra, data_entrega, valor_total) values (21, 2, '2021-08-8', '2021-08-10', 0);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (21, 50);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (21, 28);
+update tb_pedido p
+        set valor_total = 83.95
+        where p.codigo_pedido  = 21;
+
+insert into tb_pedido (codigo_pedido, codigo_status_do_pedido, data_compra, data_entrega, valor_total) values (22, 3, '2021-08-8', '2021-08-10', 0);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (22, 48);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (22, 10);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (22, 26);
+update tb_pedido p
+        set valor_total = 268.81
+        where p.codigo_pedido  = 22;
+
+
+insert into tb_pedido (codigo_pedido, codigo_status_do_pedido, data_compra, data_entrega, valor_total) values (23, 4, '2021-08-27', '2021-08-29', 0);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (23, 51);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (23, 14);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (23, 31);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (23, 8);
+update tb_pedido p
+        set valor_total = 466.46
+        where p.codigo_pedido  = 23;
+
+insert into tb_pedido (codigo_pedido, codigo_status_do_pedido, data_compra, data_entrega, valor_total) values (24, 3, '2021-08-22', '2021-08-24', 0);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (24, 39);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (24, 28);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (24, 36);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (24, 6);
+update tb_pedido p
+        set valor_total = 108.95
+        where p.codigo_pedido  = 24;
+
+insert into tb_pedido (codigo_pedido, codigo_status_do_pedido, data_compra, data_entrega, valor_total) values (25, 2, '2021-08-15', '2021-08-17', 0);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (25, 13);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (25, 1);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (25, 21);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (25, 15);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (25, 7);
+update tb_pedido p
+        set valor_total = 106.9
+        where p.codigo_pedido  = 25;
+
+insert into tb_pedido (codigo_pedido, codigo_status_do_pedido, data_compra, data_entrega, valor_total) values (26, 1, '2021-08-22', '2021-08-24', 0);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (26, 18);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (26, 15);
+update tb_pedido p
+        set valor_total = 145
+        where p.codigo_pedido  = 26;
+
+
+insert into tb_pedido (codigo_pedido, codigo_status_do_pedido, data_compra, data_entrega, valor_total) values (27, 4, '2021-08-3', '2021-08-5', 0);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (27, 31);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (27, 57);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (27, 19);
+update tb_pedido p
+        set valor_total = 923.28
+        where p.codigo_pedido  = 27;
+
+
+insert into tb_pedido (codigo_pedido, codigo_status_do_pedido, data_compra, data_entrega, valor_total) values (28, 2, '2021-08-26', '2021-08-28', 0);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (28, 9);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (28, 55);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (28, 47);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (28, 56);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (28, 48);
+update tb_pedido p
+        set valor_total = 151.17
+        where p.codigo_pedido  = 28;
+
+
+insert into tb_pedido (codigo_pedido, codigo_status_do_pedido, data_compra, data_entrega, valor_total) values (29, 1, '2021-08-22', '2021-08-24', 0);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (29, 42);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (29, 50);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (29, 44);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (29, 30);
+update tb_pedido p
+        set valor_total = 68.84
+        where p.codigo_pedido  = 29;
+
+
+insert into tb_pedido (codigo_pedido, codigo_status_do_pedido, data_compra, data_entrega, valor_total) values (30, 2, '2021-08-8', '2021-08-10', 0);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (30, 17);
+update tb_pedido p
+        set valor_total = 5.18
+        where p.codigo_pedido  = 30;
+
+insert into tb_pedido (codigo_pedido, codigo_status_do_pedido, data_compra, data_entrega, valor_total) values (31, 3, '2021-08-7', '2021-08-9', 0);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (31, 4);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (31, 45);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (31, 38);
+update tb_pedido p
+        set valor_total = 231.12
+        where p.codigo_pedido  = 31;
+
+insert into tb_pedido (codigo_pedido, codigo_status_do_pedido, data_compra, data_entrega, valor_total) values (32, 4, '2021-08-28', '2021-08-30', 0);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (32, 53);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (32, 40);
+update tb_pedido p
+        set valor_total = 990.84
+        where p.codigo_pedido  = 32;
+
+insert into tb_pedido (codigo_pedido, codigo_status_do_pedido, data_compra, data_entrega, valor_total) values (33, 3, '2021-08-27', '2021-08-29', 0);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (33, 59);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (33, 41);
+update tb_pedido p
+        set valor_total = 162.79
+        where p.codigo_pedido  = 33;
+
+insert into tb_pedido (codigo_pedido, codigo_status_do_pedido, data_compra, data_entrega, valor_total) values (34, 4, '2021-08-5', '2021-08-7', 0);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (34, 11);
+update tb_pedido p
+        set valor_total = 99.99
+        where p.codigo_pedido  = 34;
+
+insert into tb_pedido (codigo_pedido, codigo_status_do_pedido, data_compra, data_entrega, valor_total) values (35, 3, '2021-08-1', '2021-08-3', 0);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (35, 53);
+insert into tb_pedido_itens (codigo_pedido, codigo_item) values (35, 6);
+update tb_pedido p
+        set valor_total = 935.76
+        where p.codigo_pedido  = 35;
+
+
+
+-- tb nota_fiscal
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(212423988, 16, '1166 6864 2424 4645 9768 9786 9547 3699 3843 7638 ', 772, '2021-8-26', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (212423988, 12, 0.0300, 1.8216);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (212423988, 50, 0.0300, 0.42);
+	update tb_nota_fiscal nf
+	set valor_total = 74.72
+	where nf.nf = 212423988;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(848918552, 1, '3310 8330 1836 3999 8331 2479 2729 9644 2181 3719 ', 156, '2021-8-7', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (848918552, 5, 0.0300, 0.9081);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (848918552, 6, 0.0300, 0.5028);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (848918552, 8, 0.0300, 0.9081);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (848918552, 50, 0.0300, 0.42);
+	update tb_nota_fiscal nf
+	set valor_total = 77.3
+	where nf.nf = 848918552;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(783674640, 10, '6182 8792 4528 7835 9177 1978 8396 3055 5876 5108 ', 110, '2021-8-15', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (783674640, 12, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (783674640, 54, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 11.64
+	where nf.nf = 783674640;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(795711973, 17, '6727 5661 8605 1525 8377 9149 5347 6306 4153 8198 ', 494, '2021-8-16', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (795711973, 33, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 61.49
+	where nf.nf = 795711973;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(902462329, 7, '7305 5234 8205 4611 4326 5253 5423 6809 4625 9345 ', 198, '2021-8-7', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (902462329, 1, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (902462329, 4, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (902462329, 33, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (902462329, 46, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (902462329, 47, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 157.96
+	where nf.nf = 902462329;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(570158602, null, '1757 5716 2715 7245 9393 5839 8707 6532 5312 1143 ', 983, '2021-8-11', 5, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (570158602, 40, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 71.84
+	where nf.nf = 570158602;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(556145763, null, '3420 5932 3057 9281 9394 2045 5280 3465 9585 3483 ', 290, '2021-8-15', 1, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (556145763, 32, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 53.13
+	where nf.nf = 556145763;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(940246926, null, '9268 2584 8203 3071 3718 5810 9969 1612 3096 5350 ', 940, '2021-8-22', 4, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (940246926, 2, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (940246926, 57, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 335.04
+	where nf.nf = 940246926;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(639039661, 20, '8711 3389 2329 9972 4128 2883 3673 2646 4597 4611 ', 860, '2021-8-27', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (639039661, 6, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (639039661, 44, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 22.69
+	where nf.nf = 639039661;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(461226653, 13, '8246 1447 3881 4792 2751 8712 8914 7533 6236 8419 ', 892, '2021-8-23', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (461226653, 36, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (461226653, 42, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 5.88
+	where nf.nf = 461226653;
+        
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(110902859, 19, '3204 9703 9608 3848 7025 1439 1743 6149 9921 8043 ', 326, '2021-8-24', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (110902859, 43, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (110902859, 51, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (110902859, 52, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 114.12
+	where nf.nf = 110902859;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(222680105, 9, '5028 2678 7129 5443 1028 5031 2682 8910 4584 8867 ', 688, '2021-8-29', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (222680105, 48, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 19.9
+	where nf.nf = 222680105;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(673850521, 2, '9878 9265 1129 5091 4259 3432 4881 5819 4813 3741 ', 924, '2021-8-23', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (673850521, 8, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (673850521, 10, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 14.68
+	where nf.nf = 673850521;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(134387088, 28, '9949 9702 3658 5841 4978 8060 8394 4071 2627 4185 ', 854, '2021-8-15', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (134387088, 9, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (134387088, 47, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (134387088, 48, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (134387088, 55, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (134387088, 56, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 151.17
+	where nf.nf = 134387088;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(477194377, 14, '2299 1127 4493 7584 6459 9918 7127 8926 8330 8212 ', 857, '2021-8-12', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (477194377, 15, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (477194377, 45, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (477194377, 54, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (477194377, 58, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 356.45
+	where nf.nf = 477194377;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(250529997, 24, '6759 8227 9040 7350 5001 1168 6425 8215 1551 6135 ', 132, '2021-8-10', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (250529997, 6, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (250529997, 28, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (250529997, 36, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (250529997, 39, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 108.95
+	where nf.nf = 250529997;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(341679816, 25, '6026 4583 1917 3688 8478 6691 5439 9654 9130 6271 ', 754, '2021-8-1', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (341679816, 1, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (341679816, 7, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (341679816, 13, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (341679816, 15, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (341679816, 21, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 106.9
+	where nf.nf = 341679816;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(355446264, 8, '1122 1444 7701 4988 3993 3290 3376 7407 3053 7094 ', 916, '2021-8-9', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (355446264, 17, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (355446264, 18, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (355446264, 21, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (355446264, 54, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (355446264, 58, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 256.13
+	where nf.nf = 355446264;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(990505380, 5, '1529 8266 3140 2838 9472 5572 6864 5707 3767 8908 ', 686, '2021-8-24', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (990505380, 10, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (990505380, 32, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (990505380, 42, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 90.3
+	where nf.nf = 990505380;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(108281116, 30, '6443 4844 4499 1277 2702 6660 8437 8472 6645 4527 ', 592, '2021-8-2', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (990505380, 17, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 5.18
+	where nf.nf = 108281116;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(796835362, 23, '9732 9283 5598 6044 3099 9409 5702 2970 1343 4837 ', 463, '2021-8-10', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (796835362, 8, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (796835362, 14, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (796835362, 31, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (796835362, 51, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 466.46
+	where nf.nf = 796835362;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(837334201, 12, '2915 2291 9000 4087 9766 7980 3837 8831 7043 9545 ', 205, '2021-8-16', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (837334201, 13, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (837334201, 16, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (837334201, 22, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (837334201, 29, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (837334201, 58, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 42.82
+	where nf.nf = 837334201;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(206003660, 4, '6045 5719 7277 5205 7537 5574 2544 2006 8294 8540 ', 950, '2021-8-8', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (206003660, 3, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (206003660, 8, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 14.16
+	where nf.nf = 206003660;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(818532783, 21, '5438 8922 5332 3392 6171 5046 9334 3512 6696 9771 ', 328, '2021-8-22', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (818532783, 28, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (818532783, 50, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 83.95
+	where nf.nf = 818532783;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(341448993, 6, '1420 9405 4805 9079 4596 1719 1809 6125 6862 4043 ', 567, '2021-8-24', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (341448993, 21, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (341448993, 54, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 50.55
+	where nf.nf = 341448993;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(106938084, 11, '3710 1998 5089 1705 6494 5154 9854 8066 5863 8943 ', 346, '2021-8-20', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (106938084, 25, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (106938084, 52, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (106938084, 56, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 82.72
+	where nf.nf = 106938084;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(531395058, 27, '8576 1048 2452 4941 8824 2870 3874 6262 4954 6890 ', 883, '2021-8-15', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (531395058, 19, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (531395058, 31, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (531395058, 57, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 923.28
+	where nf.nf = 531395058;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(702710467, 15, '6972 4380 1661 1399 6537 1478 9649 5736 1778 1133 ', 932, '2021-8-22', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (702710467, 7, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (702710467, 9, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (702710467, 28, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 23.38
+	where nf.nf = 702710467;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(330282259, 22, '8350 5916 3853 3770 4421 7708 5388 8202 6770 4033 ', 367, '2021-8-8', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (330282259, 10, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (330282259, 26, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (330282259, 48, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 268.81
+	where nf.nf = 330282259;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(417718812, 29, '5951 8574 6082 4877 9321 8889 7765 2792 9053 3496 ', 311, '2021-8-20', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (417718812, 30, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (417718812, 42, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (417718812, 44, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (417718812, 50, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 68.84
+	where nf.nf = 417718812;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(761916123, 26, '9330 9121 8249 3002 2868 2232 8509 8624 6491 2868 ', 724, '2021-8-13', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (761916123, 15, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (761916123, 18, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 145
+	where nf.nf = 761916123;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(965714313, 3, '2738 5003 3218 1416 8752 9390 5864 2499 6032 1744 ', 134, '2021-8-19', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (965714313, 6, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (965714313, 7, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 41.9
+	where nf.nf = 965714313;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(539923511, 18, '6306 8529 1847 2452 2377 2204 4057 3517 6121 4419 ', 856, '2021-8-3', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (539923511, 13, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (539923511, 18, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (539923511, 38, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (539923511, 59, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 228.94
+	where nf.nf = 539923511;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(690918765, 31, '3310 7537 7339 7407 5034 4096 3173 7913 2946 8272 ', 504, '2021-8-19', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (690918765, 4, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (690918765, 38, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (690918765, 10, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 231.12
+	where nf.nf = 690918765;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(767622488, 32, '2786 5143 5774 6024 4550 9200 6544 6483 4715 2934 ', 247, '2021-8-7', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (767622488, 40, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (767622488, 53, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 990.84
+	where nf.nf = 767622488;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(245179936, 33, '1085 9031 2043 1877 4902 4684 9329 8636 4683 9555 ', 628, '2021-8-2', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (245179936, 41, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (245179936, 59, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 162.79
+	where nf.nf = 245179936;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(544636687, 34, '3596 1776 8897 6292 2513 3927 3813 4497 5688 8137 ', 166, '2021-8-27', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (544636687, 11, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 99.99
+	where nf.nf = 544636687;
+
+insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values 
+(378986202, 35, '6357 9503 2353 1313 5549 2488 8861 4844 2215 5171 ', 478, '2021-8-11', null, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (378986202, 6, 0, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (378986202, 53, 0, 0);
+update tb_nota_fiscal nf
+	set valor_total = 935.76
+	where nf.nf = 378986202;
+
+
+-- tb cliente pedido
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (14, 1);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (49, 2);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (47, 3);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (26, 4);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (33, 5);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (13, 6);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (37, 7);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (33, 8);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (50, 9);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (21, 10);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (45, 11);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (19, 12);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (59, 13);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (4, 14);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (48, 15);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (51, 16);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (33, 17);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (38, 18);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (2, 19);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (57, 20);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (42, 21);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (41, 22);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (3, 23);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (35, 24);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (11, 25);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (33, 26);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (49, 27);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (53, 28);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (29, 29);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (18, 30);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (18, 31);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (18, 32);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (3, 33);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (53, 34);
+insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (53, 35);
+
+-- tb cliente_telefone
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (39, 1, 'CEL.');
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (1, 2, 'CASA');
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (43, 3, 'CEL.');
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (5, 4, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (37, 5, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (58, 6, 'CASA');
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (44, 7, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (20, 8, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (3, 9, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (18, 10, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (45, 11, 'CASA');
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (12, 12, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (27, 13, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (8, 14, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (28, 15, 'CASA');
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (35, 16, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (49, 17, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (48, 18, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (55, 19, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (47, 20, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (33, 21, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (13, 22, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (13, 23, 'CEL.');
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (20, 24, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (48, 25, 'CEL.');
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (25, 26, 'CEL.');
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (46, 27, 'CEL.');
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (52, 28, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (54, 29, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (54, 30, 'CEL.');
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (3, 31, 'CASA');
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (31, 32, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (8, 33, 'CASA');
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (45, 34, 'TRABALHO');
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (5, 35, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (51, 36, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (35, 37, 'CELULAR');
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (40, 38, 'CASA');
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (26, 39, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (22, 40, 'TRABALHO');
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (41, 41, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (29, 42, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (21, 43, 'CELULAR');
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (7, 44, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (52, 45, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (35, 46, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (20, 47, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (51, 48, 'CELULAR');
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (29, 49, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (21, 50, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (56, 51, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (19, 52, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (17, 53, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (30, 54, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (11, 55, 'CASA');
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (21, 56, 'CEL.');
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (44, 57, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (31, 58, 'CASA');
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (27, 59, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (28, 60, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (54, 61, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (53, 62, 'CELULAR');
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (55, 63, 'CASA');
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (19, 64, 'CASA');
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (41, 65, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (33, 66, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (52, 67, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (11, 68, 'CEL.');
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (11, 69, null);
+insert into tb_cliente_telefone (codigo_cliente, codigo_telefone, descricao_telefone) values (56, 70, null);
