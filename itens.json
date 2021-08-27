@@ -1,0 +1,122 @@
+[
+    {
+        "codigoItem": 1,
+        "qtd": 3,
+        "totalItem": "14.88",
+        "codigo": 4,
+        "descricao": "Limpador Multi - Uso VEJA Original 500ml",
+        "categoria": 1,
+        "marca": "Veja",
+        "composicao": null,
+        "valor_base": 5.66,
+        "desconto": 0.7
+    },
+    {
+        "codigoItem": 2,
+        "qtd": 6,
+        "totalItem": "54.54",
+        "codigo": 23,
+        "descricao": "Queijo Mussarela PRESIDENT Fatiado 150g",
+        "categoria": 2,
+        "marca": "President",
+        "composicao": null,
+        "valor_base": 9.99,
+        "desconto": 0.9
+    },
+    {
+        "codigoItem": 3,
+        "qtd": 2,
+        "totalItem": "6.34",
+        "codigo": 26,
+        "descricao": "Banana Nanica 600g",
+        "categoria": 2,
+        "marca": null,
+        "composicao": null,
+        "valor_base": 3.17,
+        "desconto": 0
+    },
+    {
+        "codigoItem": 4,
+        "qtd": 9,
+        "totalItem": "40.95",
+        "codigo": 35,
+        "descricao": "Laranja Importada 1kg",
+        "categoria": 2,
+        "marca": null,
+        "composicao": null,
+        "valor_base": 4.55,
+        "desconto": 0
+    },
+    {
+        "codigoItem": 5,
+        "qtd": 3,
+        "totalItem": "30.27",
+        "codigo": 24,
+        "descricao": "Nuggets de Frango Crocante SADIA 300g",
+        "categoria": 2,
+        "marca": "Sadia",
+        "composicao": "Peito de frango, farinha de rosca, gordura vegetal hidrogenada, água, carne de frango, farinha de trigo enriquecida com ferro e ácido fólico, sal, proteína isolada de soja, amido, leite em pó, proteína vegetal hidrolisada, vinagre, ovo em pó, estabilizante polifosfato de sódio (INS 452i), antioxidante eritorbato de sódio (INS 316), realçador de sabor glutamato monossódico (INS 621), espessante goma guar (INS 412) e aroma natural de pimenta branca.",
+        "valor_base": 10.99,
+        "desconto": 0.9
+    },
+    {
+        "codigoItem": 6,
+        "qtd": 4,
+        "totalItem": "16.76",
+        "codigo": 22,
+        "descricao": "Chocolate Bis ao leite 126g",
+        "categoria": 2,
+        "marca": "Lacta",
+        "composicao": null,
+        "valor_base": 4.89,
+        "desconto": 0.7
+    },
+    {
+        "codigoItem": 7,
+        "qtd": 6,
+        "totalItem": "25.14",
+        "codigo": 22,
+        "descricao": "Chocolate Bis ao leite 126g",
+        "categoria": 2,
+        "marca": "Lacta",
+        "composicao": null,
+        "valor_base": 4.89,
+        "desconto": 0.7
+    },
+    {
+        "codigoItem": 8,
+        "qtd": 3,
+        "totalItem": "30.27",
+        "codigo": 24,
+        "descricao": "Nuggets de Frango Crocante SADIA 300g",
+        "categoria": 2,
+        "marca": "Sadia",
+        "composicao": "Peito de frango, farinha de rosca, gordura vegetal hidrogenada, água, carne de frango, farinha de trigo enriquecida com ferro e ácido fólico, sal, proteína isolada de soja, amido, leite em pó, proteína vegetal hidrolisada, vinagre, ovo em pó, estabilizante polifosfato de sódio (INS 452i), antioxidante eritorbato de sódio (INS 316), realçador de sabor glutamato monossódico (INS 621), espessante goma guar (INS 412) e aroma natural de pimenta branca.",
+        "valor_base": 10.99,
+        "desconto": 0.9
+    },
+    {
+        "codigoItem": 9,
+        "qtd": 1,
+        "totalItem": "2.80",
+        "codigo": 39,
+        "descricao": "Alface Americana Bola 250g",
+        "categoria": 2,
+        "marca": null,
+        "composicao": null,
+        "valor_base": 4.5,
+        "desconto": 1.7
+    },
+    {
+        "codigoItem": 10,
+        "qtd": 9,
+        "totalItem": "33.21",
+        "codigo": 38,
+        "descricao": "Batata Comum Granel 1kg",
+        "categoria": 2,
+        "marca": null,
+        "composicao": null,
+        "valor_base": 3.69,
+        "desconto": 0
+    }
+]

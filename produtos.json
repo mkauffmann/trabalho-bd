@@ -6,7 +6,7 @@
         "marca": "OMO",
         "composicao": "Linear Alquil, Benzeno Sulfonato De Sódio, Alquil Éter Sulfato de Sódio, Ajustador de Ph, Espessantes, Coadjuvantes, Tamponante, Corante, Enzimas, Branqueador Óptico, Fragrância, Agente Anti Redepositante, Conservantes e Água.",
         "valor_base": 37.99,
-        "desconto": null
+        "desconto": 0
     },
     {
         "codigo": 2,
@@ -25,5 +25,429 @@
         "composicao": null,
         "valor_base": 6.29,
         "desconto": 0.40
+    },
+    {
+        "codigo": 4,
+        "descricao": "Limpador Multi - Uso VEJA Original 500ml",
+        "categoria": 1,
+        "marca": "Veja",
+        "composicao": null,
+        "valor_base": 5.66,
+        "desconto": 0.70
+    },
+    {
+        "codigo": 5,
+        "descricao": "Mop Spray Fit Noviça Bettanin BT1712",
+        "categoria": 1,
+        "marca": "Bettanin",
+        "composicao": "Polipropileno e Refil Microfibra",
+        "valor_base": 115.35,
+        "desconto": 7.50
+    },
+    {
+        "codigo": 6,
+        "descricao": "Kit Desinfetante Pinho Sol Lavanda 1L com 8 unidades",
+        "categoria": 1,
+        "marca": "Pinho Sol",
+        "composicao": null,
+        "valor_base": 91.90,
+        "desconto": 0
+    },
+    {
+        "codigo": 7,
+        "descricao": "Kit 2 Lustra-Móveis Bravo Brilho Intenso Lavanda Revitaliza 500ml",
+        "categoria": 1,
+        "marca": "Bravo",
+        "composicao": null,
+        "valor_base": 33.90,
+        "desconto": 0
+    },
+    {
+        "codigo": 8,
+        "descricao": "Limpa Banheiro Garoa Eucalipto & Vetiver 600 ml",
+        "categoria": 1,
+        "marca": "Garoa",
+        "composicao": "Mistura de terpenos (derivados de laranja e pinho), álcoois laurílico etoxilados (derivados de óleos de coco e palma), alquil amina quaternária etoxilada (derivado de óleo de palma), álcool etílico neutro e água",
+        "valor_base": 22.61,
+        "desconto": 0
+    },
+    {
+        "codigo": 9,
+        "descricao": "Kit 4 Amaciantes Comfort Concentrado Roupas Esportivas Intense 500ml",
+        "categoria": 1,
+        "marca": "Comfort",
+        "composicao": null,
+        "valor_base": 40.36,
+        "desconto": 0
+    },
+    {
+        "codigo": 10,
+        "descricao": "Limpador Desengordurante Mr Músculo para Cozinha Limão 500ml Borrifador",
+        "categoria": 1,
+        "marca": "Mr Musculo",
+        "composicao": null,
+        "valor_base": 19.90,
+        "desconto": 0
+    },
+    {
+        "codigo": 11,
+        "descricao": "Limpador Sanol Eucalipto 120ml",
+        "categoria": 1,
+        "marca": "Sanol",
+        "composicao": null,
+        "valor_base": 9.90,
+        "desconto": 0.40
+    },
+    {
+        "codigo": 12,
+        "descricao": "Desinfetante Lysoform Uso Geral Lembrança de Infância Aerossol 360ml",
+        "categoria": 1,
+        "marca": "Lysol",
+        "composicao": null,
+        "valor_base": 25.90,
+        "desconto": 0
+    },
+    {
+        "codigo": 13,
+        "descricao": "Pano para Vidros EsfreBom Alta Performance Bettanin 30cm x 40cm",
+        "categoria": 1,
+        "marca": "Betannin",
+        "composicao": "Microfibra",
+        "valor_base": 16.64,
+        "desconto": 0
+    },
+    {
+        "codigo": 14,
+        "descricao": "Desumidificador Natural Secar 80g",
+        "categoria": 1,
+        "marca": "Secar",
+        "composicao": null,
+        "valor_base": 7.49,
+        "desconto": 0
+    },
+    {
+        "codigo": 15,
+        "descricao": "Rolo de Saco para Lixo Azul 15 Litros",
+        "categoria": 1,
+        "marca": "Betannin",
+        "composicao": null,
+        "valor_base": 31.99,
+        "desconto": 0
+    },
+    {
+        "codigo": 16,
+        "descricao": "Detergente Sanitário Pastilha Adesiva Carrossel de Framboesa Pato 3 Unidades",
+        "categoria": 1,
+        "marca": "Pato",
+        "composicao": null,
+        "valor_base": 7.49,
+        "desconto": 0.7
+    },
+    {
+        "codigo": 17,
+        "descricao": "Álcool em Gel Higienizante Blue 60 ml",
+        "categoria": 1,
+        "marca": "Blue",
+        "composicao": " ALCOHOL, AQUA, GLYCERIN, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, BUTYROSPERMUM PARKII BUTTER, ACACIA SENEGAL GUM, TOCOPHERYL ACETATE, CI 77007, CI77891, DIAZOLIDINYL UREA, ISOPROPANOLAMINE, DENATONIUM BENZOATE, PARFUM, COUMARIN, ALPHA-ISOMETHYL IONONE, BENZYL BENZOATE, BUTYLPHENYL METHYLPROPIONAL, LINALOOL",
+        "valor_base": 6.49,
+        "desconto": 0.9
+    },
+    {
+        "codigo": 18,
+        "descricao": "Sabonete Líquido Protex Balance 250ml",
+        "categoria": 1,
+        "marca": "Protex",
+        "composicao": null,
+        "valor_base": 14.90,
+        "desconto": 0
+    },
+    {
+        "codigo": 19,
+        "descricao": "Odorizador de Ambiente Secar Bamboo do Tibete 360ml",
+        "categoria": 1,
+        "marca": "Soin",
+        "composicao": null,
+        "valor_base": 16.99,
+        "desconto": 0
+    },
+    {
+        "codigo": 20,
+        "descricao": "Spray Odorizante Coala Capim Limão 120ml",
+        "categoria": 1,
+        "marca": "Coala",
+        "composicao": null,
+        "valor_base": 15.41,
+        "desconto": 0
+    },
+    {
+        "codigo": 21,
+        "descricao": "Ovos Vermelho Grandes Caipira ITO Country Bandeja com 10 Unidades",
+        "categoria": 2,
+        "marca": "Ito",
+        "composicao": null,
+        "valor_base": 12.90,
+        "desconto": 0
+    },
+    {
+        "codigo": 22,
+        "descricao": "Chocolate Bis ao leite 126g",
+        "categoria": 2,
+        "marca": "Lacta",
+        "composicao": null,
+        "valor_base": 4.89,
+        "desconto": 0.70
+    },
+    {
+        "codigo": 23,
+        "descricao": "Queijo Mussarela PRESIDENT Fatiado 150g",
+        "categoria": 2,
+        "marca": "President",
+        "composicao": null,
+        "valor_base": 9.99,
+        "desconto": 0.90
+    },
+    {
+        "codigo": 24,
+        "descricao": "Nuggets de Frango Crocante SADIA 300g",
+        "categoria": 2,
+        "marca": "Sadia",
+        "composicao": "Peito de frango, farinha de rosca, gordura vegetal hidrogenada, água, carne de frango, farinha de trigo enriquecida com ferro e ácido fólico, sal, proteína isolada de soja, amido, leite em pó, proteína vegetal hidrolisada, vinagre, ovo em pó, estabilizante polifosfato de sódio (INS 452i), antioxidante eritorbato de sódio (INS 316), realçador de sabor glutamato monossódico (INS 621), espessante goma guar (INS 412) e aroma natural de pimenta branca.",
+        "valor_base": 10.99,
+        "desconto": 0.90
+    },
+    {
+        "codigo": 25,
+        "descricao": "Filé Mignon em Cubos Origem Controlada 240g",
+        "categoria": 2,
+        "marca": "Natural Meat",
+        "composicao": null,
+        "valor_base": 25.50,
+        "desconto": 0
+    },
+    {
+        "codigo": 26,
+        "descricao": "Banana Nanica 600g",
+        "categoria": 2,
+        "marca": null,
+        "composicao": null,
+        "valor_base": 3.17,
+        "desconto": 0
+    },
+    {
+        "codigo": 27,
+        "descricao": "Manga Palmer a Granel 500g",
+        "categoria": 2,
+        "marca": null,
+        "composicao": null,
+        "valor_base": 2.64,
+        "desconto": 0.64
+    },
+    {
+        "codigo": 28,
+        "descricao": "Limão Tahiti Pacote 1kg",
+        "categoria": 2,
+        "marca": null,
+        "composicao": null,
+        "valor_base": 4.25,
+        "desconto": 0
+    },
+    {
+        "codigo": 29,
+        "descricao": "Maçã Red Importada Bandeja 700g",
+        "categoria": 2,
+        "marca": null,
+        "composicao": null,
+        "valor_base": 5.93,
+        "desconto": 0
+    },
+    {
+        "codigo": 30,
+        "descricao": "Abacaxi Pérola Unidade",
+        "categoria": 2,
+        "marca": null,
+        "composicao": null,
+        "valor_base": 6.90,
+        "desconto": 2
+    },
+    {
+        "codigo": 31,
+        "descricao": "Mamão Formosa Bandeja 1 Unidade",
+        "categoria": 2,
+        "marca": null,
+        "composicao": null,
+        "valor_base": 8.98,
+        "desconto": 0
+    },
+    {
+        "codigo": 32,
+        "descricao": "Maçã TURMA DA MÔNICA Pacote 1kg",
+        "categoria": 2,
+        "marca": "Fischer",
+        "composicao": null,
+        "valor_base": 8.19,
+        "desconto": 0
+    },
+    {
+        "codigo": 33,
+        "descricao": "Goiaba Vermelha a Granel 1kg",
+        "categoria": 2,
+        "marca": null,
+        "composicao": null,
+        "valor_base": 13.99,
+        "desconto": 0
+    },
+    {
+        "codigo": 34,
+        "descricao": "Coco Verde Unidade",
+        "categoria": 2,
+        "marca": null,
+        "composicao": null,
+        "valor_base": 4.99,
+        "desconto": 2
+    },
+    {
+        "codigo": 35,
+        "descricao": "Laranja Importada 1kg",
+        "categoria": 2,
+        "marca": null,
+        "composicao": null,
+        "valor_base": 4.55,
+        "desconto": 0
+    },
+    {
+        "codigo": 36,
+        "descricao": "Bisnaguinha Original PANCO Pacote 300g",
+        "categoria": 2,
+        "marca": "Panco",
+        "composicao": "Farinha de trigo enriquecida com ferro e ácido fólico, açúcar invertido, açúcar, gordura vegetal, ovo, glicose de milho, sal refinado, glúten, leite integral, estabilizantes lecitina de soja e estearoil 2-lactil lactato de cálcio, conservador propionato de cálacio e acidulante ácido ascórbico.",
+        "valor_base": 5.99,
+        "desconto": 0
+    },
+    {
+        "codigo": 37,
+        "descricao": "Beterraba a Granel 300g",
+        "categoria": 2,
+        "marca": null,
+        "composicao": null,
+        "valor_base": 1.68,
+        "desconto": 0
+    },
+    {
+        "codigo": 38,
+        "descricao": "Batata Comum Granel 1kg",
+        "categoria": 2,
+        "marca": null,
+        "composicao": null,
+        "valor_base": 3.69,
+        "desconto": 0
+    },
+    {
+        "codigo": 39,
+        "descricao": "Alface Americana Bola 250g",
+        "categoria": 2,
+        "marca": null,
+        "composicao": null,
+        "valor_base": 4.50,
+        "desconto": 1.7
+    },
+    {
+        "codigo": 40,
+        "descricao": "Alho 100g",
+        "categoria": 2,
+        "marca": null,
+        "composicao": null,
+        "valor_base": 2.19,
+        "desconto": 0
+    },
+    {
+        "codigo": 41,
+        "descricao": "Café Pilão Torrado E Moído Tradicional Almofada 500g",
+        "categoria": 3,
+        "marca": "Pilão",
+        "composicao": "Café torrado e moído.",
+        "valor_base": 13.99,
+        "desconto": 0
+    },
+    {
+        "codigo": 42,
+        "descricao": "Arroz Agulhinha Tipo 1 CAMIL Pacote 5kg",
+        "categoria": 3,
+        "marca": "Camil",
+        "composicao": null,
+        "valor_base": 22.99,
+        "desconto": 1.5
+    },
+    {
+        "codigo": 43,
+        "descricao": "Azeite de Oliva Extra Virgem Clássico Português Gallo Vidro 500ml",
+        "categoria": 3,
+        "marca": "Galo",
+        "composicao": null,
+        "valor_base": 21.99,
+        "desconto": 0
+    },
+    {
+        "codigo": 44,
+        "descricao": "Óleo De Soja QUALITÁ Garrafa 900ml",
+        "categoria": 3,
+        "marca": "Qualitá",
+        "composicao": null,
+        "valor_base": 7.79,
+        "desconto": 0.2
+    },
+    {
+        "codigo": 45,
+        "descricao": "Açúcar Refinado UNIÃO Pacote 1kg",
+        "categoria": 3,
+        "marca": "União",
+        "composicao": null,
+        "valor_base": 3.85,
+        "desconto": 0.1
+    },
+    {
+        "codigo": 46,
+        "descricao": "Feijão Carioca Tipo 1 QUALITÁ Pacote 1Kg",
+        "categoria": 3,
+        "marca": "Qualitá",
+        "composicao": "Grupo feijão comum classe cores tipo 1",
+        "valor_base": 6.79,
+        "desconto": 0.1
+    },
+    {
+        "codigo": 47,
+        "descricao": "Macarrão Italiano Espaghetti Nº 5 BARILLA 500g",
+        "categoria": 3,
+        "marca": "Barilla",
+        "composicao": "Sêmola de trigo durum / duro, água.",
+        "valor_base": 7.89,
+        "desconto": 0.3
+    },
+    {
+        "codigo": 48,
+        "descricao": "Fubá de Milho YOKI Pacote 500g",
+        "categoria": 3,
+        "marca": "Yoki",
+        "composicao": "Farinha de milho.",
+        "valor_base": 2.89,
+        "desconto": 0.3
+    },
+    {
+        "codigo": 49,
+        "descricao": "Farinha de Trigo Tipo 1 Qualitá Pacote 1kg",
+        "categoria": 3,
+        "marca": "Qualitá",
+        "composicao": null,
+        "valor_base": 4.89,
+        "desconto": 0.4
+    },
+    {
+        "codigo": 50,
+        "descricao": "Massa de Tapioca YOKI Pacote 500g",
+        "categoria": 3,
+        "marca": "Yoki",
+        "composicao": null,
+        "valor_base": 6.19,
+        "desconto": 1.5
     }
+
 ]

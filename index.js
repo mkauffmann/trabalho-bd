@@ -140,17 +140,40 @@ function gerarNome(){
     return nomes[Math.floor(Math.random() * nomes.length)] + ' ' + sobrenomes[Math.floor(Math.random() * sobrenomes.length)] + ' ' + sobrenomes[Math.floor(Math.random() * sobrenomes.length)]
 }
 
+let nomespj = ['Rodo', 'Bens', 'Alimentos', 'Peixes', 'Valores', 'Pães']
+let pjFim = ['MEI', 'ME', 'LTDA', 'S/A']
+
+function gerarNomePJ(){
+    return nomespj[Math.floor(Math.random() * nomespj.length)] + ' ' + nomespj[Math.floor(Math.random() * nomespj.length)] + ' ' + pjFim[Math.floor(Math.random() * pjFim.length)]
+}
+
+function gerarEmailPJ(nome){
+    let provedor = ['@gmail.com', '@hotmail.com', '@terra.com.br', '@yahoo.com', '@gmail.com', '@gmail.com', '@gmail.com',]
+    return 'contato' + nome.slice(0, 3) + Math.floor(Math.random() * 100) + provedor[Math.floor(Math.random() * provedor.length)];
+}
+
 function gerarInsertClientePF(valorInicial, valorFinal){
     for (let i = valorInicial; i <= valorFinal; i++){
         let nome = gerarNome();
         let email = gerarEmail(nome);
         console.log(`insert into tb_cliente (codigo_cliente, nome_cliente, email) values
-        (${i}, '${nome.toUpperCase()}', ${email.toUpperCase()});`)
+        (${i}, '${nome.toUpperCase()}', '${email.toUpperCase()}');`)
     }
-
 }
 
-gerarInsertClientePF(1, 50);
+function gerarInsertClientePJ(valorInicial, valorFinal){
+    for (let i = valorInicial; i <= valorFinal; i++){
+        let nome = gerarNomePJ();
+        let email = gerarEmailPJ(nome);
+        console.log(`insert into tb_cliente (codigo_cliente, nome_cliente, email) values
+        (${i}, '${nome.toUpperCase()}', '${email.toUpperCase()}');`)
+    }
+}
+
+
+
+
+//gerarInsertClientePJ(51, 60);
 
 //criarInsertEnderecoSPCidade(81, 100);
 
