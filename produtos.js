@@ -43,7 +43,7 @@ function gerarItem(codigoInicial, codigoFinal){
     //console.log(JSON.stringify(itens))
 }
 
-//gerarItem(11, 60)
+//gerarItem(61, 100)
 
 
 function gerarDataMes(mes){
@@ -55,7 +55,7 @@ function gerarDataMes(mes){
 
 function gerarItensPedido(codigoInicial, codigoFinal, numeroItens){
     for (let i = codigoInicial; i <= codigoFinal; i++){
-        let qtdItens = Math.floor(Math.random() * 5) + 1;
+        let qtdItens = Math.floor(Math.random() * 3) + 1;
         for (let f = 0; f < qtdItens; f++){
             let codigoItem = Math.floor(Math.random() * numeroItens - 1) + 2;
             console.log(`insert into tb_pedido_itens (codigo_pedido, codigo_item) values (${i}, ${codigoItem});`)
@@ -69,8 +69,8 @@ function gerarPedido(codigoInicial, codigoFinal){
     for(let i = codigoInicial; i <= codigoFinal; i++){
         let diaCompra = Math.floor(Math.random() * 28) + 1;
         let diaEntrega = diaCompra + 2;
-        console.log(`insert into tb_pedido (codigo_pedido, codigo_status_do_pedido, data_compra, data_entrega, valor_total) values (${i}, ${Math.floor(Math.random() * 4) + 1}, '2021-08-${diaCompra}', '2021-08-${diaEntrega}', 0);`);
-        gerarItensPedido(i, i, 60);
+        console.log(`insert into tb_pedido (codigo_pedido, codigo_status_do_pedido, data_compra, data_entrega, valor_total) values (${i}, ${Math.floor(Math.random() * 4) + 1}, '2021-09-${diaCompra}', '2021-09-${diaEntrega}', 0);`);
+        gerarItensPedido(i, i, 100);
         console.log(`update tb_pedido p 
         set valor_total = 0
         where p.codigo_pedido  = ${i};`)
@@ -85,7 +85,7 @@ where tp.codigo_pedido = ${i};
     }
 }
 
-//gerarPedido(31,35)
+//gerarPedido(36,50)
 
 
 
@@ -103,11 +103,25 @@ function gerarNf(codigoInicial, codigoFinal){
 
         let filial = filiais[Math.floor(Math.random() * (filiais.length - 1) + 1)]
 
-        let pedidos = [ 3];
+        //let pedidos = [ 3];
 
-        let pedido = pedidos[Math.floor(Math.random() * (pedidos.length - 1) + 1)];
+        //let pedido = Math.floor(Math.random() * (50 - 1) + 1);
+        let pedido = 'X'
 
-        console.log(`insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values (${nf}, ${filial == null ? pedido : null}, '${chave}', ${serie}, ${gerarDataMes(08)}, ${filial}, 0);`);
+        console.log(`insert into tb_nota_fiscal (nf, codigo_pedido, chave_de_acesso, serie, data_emissao, codigo_filial_emissora, valor_total) values
+         (${nf}, ${filial == null ? pedido : null}, '${chave}', ${serie}, ${gerarDataMes(09)}, ${filial}, 0);
+insert into tb_nota_fiscal_itens (nf, codigo_item, percentual_icms, valor_icms) values (${nf}, X, 0, 0);
+update tb_nota_fiscal nf
+	    set valor_total = 151.17
+	    where nf.nf = ${nf};
+        -- SELECT APAGAR
+        select *
+      from tb_nota_fiscal tnf 
+      INNER JOIN TB_PEDIDO TP ON (TP.CODIGO_PEDIDO = tnf.CODIGO_PEDIDO)
+      INNER JOIN TB_PEDIDO_ITENS TPI ON (TPI.CODIGO_PEDIDO = TP.CODIGO_PEDIDO)
+      INNER JOIN tb_item i ON (i.CODIGO_ITEM = TPI.CODIGO_ITEM)
+      where tnf.nf = ${nf}; 
+      -- FIM SELECT\n`);
     }
 }
 

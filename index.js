@@ -202,7 +202,7 @@ function gringoPF(inicio, fim){
 }
 
 function clientePedido(){
-    for(let i = 1; i <= 30; i++) {
+    for(let i = 36; i <= 50; i++) {
         let cliente = Math.floor(Math.random() * (60 - 1) + 1)
         console.log(`insert into tb_cliente_pedido (codigo_cliente, codigo_pedido) values (${cliente}, ${i});`)
     }
@@ -217,9 +217,9 @@ function clienteTelefone(){
     }
 }
 
-clienteTelefone()
+//clienteTelefone()
 
-//clientePedido();
+clientePedido();
 //gringoPF(41, 50)
 //cpfPF(1, 40)
 
